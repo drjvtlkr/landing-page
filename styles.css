@@ -5,6 +5,21 @@ body{
 .nav-link{
     text-decoration: none;
     color: blue;
-    /*display: flex;
-    justify-content: left;
+}
+
+button{
+    background-color: #8B5CF6;
+    color: white;
+
+}
+
+.button-one{
+
+}
+
+.img{
+    display: flex;
+    flex: 1 1 auto;
+    height: 600px;
+    width: auto;
 }
