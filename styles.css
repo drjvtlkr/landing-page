@@ -7,6 +7,18 @@ body{
     color: blue;
 }
 
+.nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
 button{
     background-color: #8B5CF6;
     color: white;
@@ -14,12 +26,34 @@ button{
 }
 
 .button-one{
-
+    
 }
 
 .img{
     display: flex;
-    flex: 1 1 auto;
+    flex: 1;
     height: 600px;
     width: auto;
 }
+
+.main{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.main .main-info button:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;    
+    justify-content: center;  
+    width: 1000px;
+    margin: auto; 
+    margin-top: 150px;
+    padding: 15x;
+}
+
