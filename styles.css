@@ -66,6 +66,7 @@ button{
 
 .info-container{
     display: inline-block;
+    
 }
 
 .product-info{
@@ -77,7 +78,7 @@ button{
 }
 
 .pro-img{
-    width: 40%;
+    width: 20%;
     border: 5px solid #3883F6;
     border-radius: 20px;
     margin-bottom: 10px;
