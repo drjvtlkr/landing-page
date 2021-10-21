@@ -24,6 +24,8 @@ body{
 button{
     background-color: #8B5CF6;
     color: white;
+    font-weight:normal ;
+    border-radius: 8px;
 
 }
 
@@ -62,11 +64,23 @@ button{
     padding: 15x;
 }
 
+.info-container{
+    display: inline-block;
+}
+
 .product-info{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    
+    flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.pro-img{
+    width: 40%;
+    border: 5px solid #3883F6;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 
 .quote-container{
@@ -75,6 +89,7 @@ button{
     font-weight: lighter;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
 }
 
 .blockquote-xuthor{
@@ -86,5 +101,29 @@ button{
     justify-content: end;
 }
 
+.signup{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: larger;
+    font-weight:normal;
+}
+
+.sign-up-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin: 0px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
 
 
