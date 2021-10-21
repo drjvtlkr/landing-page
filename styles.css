@@ -4,7 +4,8 @@ body{
 
 .nav-link{
     text-decoration: none;
-    color: blue;
+    color: white;
+    padding: 20px;
 }
 
 .nav {
@@ -12,11 +13,12 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 20px;
+    gap: 400px;
+    padding: 20px;
 }
 
 .nav a:hover {
-    text-decoration: underline;
+    text-decoration-color: rgb(36, 36, 114);
 }
 
 button{
@@ -58,6 +60,30 @@ button{
     margin: auto; 
     margin-top: 150px;
     padding: 15x;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.quote-container{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.blockquote-xuthor{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    align-items: baseline;
+    justify-content: end;
 }
 
 
