@@ -26,7 +26,9 @@ button{
 }
 
 .button-one{
-    
+    margin: 40px;
+    min-width: 100px;
+    height: max-content;
 }
 
 .img{
@@ -39,6 +41,7 @@ button{
 .main{
     background-color: #1F2937;
     color: #F9FAF8;
+    margin: 40px;
 }
 
 .main .main-info button:hover {
