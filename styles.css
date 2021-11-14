@@ -65,7 +65,9 @@ button{
 }
 
 .info-container{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     
 }
 
@@ -113,8 +115,8 @@ button{
 
 .sign-up-button{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items:center;
+    justify-content:baseline;
 }
 
 .footer{
@@ -127,4 +129,10 @@ button{
     justify-content: center;
 }
 
+.signup-container{
+    background-color: #3882F6;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
 
